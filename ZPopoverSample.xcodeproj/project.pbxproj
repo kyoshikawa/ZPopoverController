@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PopoverSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PopoverSampleAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* PopoverSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* PopoverSampleViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* PopoverSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* PopoverSampleViewController.m */; };
+		CC930FB112E7BD6100CBCFD1 /* SamplePopoverContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC930FAF12E7BD6100CBCFD1 /* SamplePopoverContentViewController.m */; };
+		CC930FB212E7BD6100CBCFD1 /* SamplePopover1.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC930FB012E7BD6100CBCFD1 /* SamplePopover1.xib */; };
+		CC930FB512E7BDCC00CBCFD1 /* electricwoods.png in Resources */ = {isa = PBXBuildFile; fileRef = CC930FB412E7BDCC00CBCFD1 /* electricwoods.png */; };
+		CC930FBE12E7BEE000CBCFD1 /* SamplePopover3.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC930FBB12E7BEE000CBCFD1 /* SamplePopover3.xib */; };
+		CC930FBF12E7BEE000CBCFD1 /* SamplePopover2.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC930FBC12E7BEE000CBCFD1 /* SamplePopover2.xib */; };
+		CC930FD212E7BF6800CBCFD1 /* ZAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CC930FC412E7BF6800CBCFD1 /* ZAction.m */; };
+		CC930FD312E7BF6800CBCFD1 /* ZActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = CC930FC612E7BF6800CBCFD1 /* ZActionSheet.m */; };
+		CC930FD412E7BF6800CBCFD1 /* ZAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC930FC812E7BF6800CBCFD1 /* ZAlertView.m */; };
+		CC930FD512E7BF6800CBCFD1 /* ZFloatingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC930FCA12E7BF6800CBCFD1 /* ZFloatingManager.m */; };
+		CC930FD612E7BF6800CBCFD1 /* ZFloatingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC930FCC12E7BF6800CBCFD1 /* ZFloatingObject.m */; };
+		CC930FD712E7BF6800CBCFD1 /* ZFloatingRepresentative.m in Sources */ = {isa = PBXBuildFile; fileRef = CC930FCE12E7BF6800CBCFD1 /* ZFloatingRepresentative.m */; };
+		CC930FD812E7BF6800CBCFD1 /* ZPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC930FD012E7BF6800CBCFD1 /* ZPopoverController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PopoverSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverSampleAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PopoverSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverSampleAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ZPopoverSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPopoverSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* PopoverSampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PopoverSampleViewController.xib; path = ../PopoverSampleViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* PopoverSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverSampleViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* PopoverSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverSampleViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ZPopoverSample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPopoverSample_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ZPopoverSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ZPopoverSample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CC930FAE12E7BD6100CBCFD1 /* SamplePopoverContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamplePopoverContentViewController.h; sourceTree = "<group>"; };
+		CC930FAF12E7BD6100CBCFD1 /* SamplePopoverContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamplePopoverContentViewController.m; sourceTree = "<group>"; };
+		CC930FB012E7BD6100CBCFD1 /* SamplePopover1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SamplePopover1.xib; sourceTree = "<group>"; };
+		CC930FB412E7BDCC00CBCFD1 /* electricwoods.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = electricwoods.png; sourceTree = "<group>"; };
+		CC930FBB12E7BEE000CBCFD1 /* SamplePopover3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SamplePopover3.xib; sourceTree = "<group>"; };
+		CC930FBC12E7BEE000CBCFD1 /* SamplePopover2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SamplePopover2.xib; sourceTree = "<group>"; };
+		CC930FC312E7BF6800CBCFD1 /* ZAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAction.h; sourceTree = "<group>"; };
+		CC930FC412E7BF6800CBCFD1 /* ZAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAction.m; sourceTree = "<group>"; };
+		CC930FC512E7BF6800CBCFD1 /* ZActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZActionSheet.h; sourceTree = "<group>"; };
+		CC930FC612E7BF6800CBCFD1 /* ZActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZActionSheet.m; sourceTree = "<group>"; };
+		CC930FC712E7BF6800CBCFD1 /* ZAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAlertView.h; sourceTree = "<group>"; };
+		CC930FC812E7BF6800CBCFD1 /* ZAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAlertView.m; sourceTree = "<group>"; };
+		CC930FC912E7BF6800CBCFD1 /* ZFloatingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFloatingManager.h; sourceTree = "<group>"; };
+		CC930FCA12E7BF6800CBCFD1 /* ZFloatingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFloatingManager.m; sourceTree = "<group>"; };
+		CC930FCB12E7BF6800CBCFD1 /* ZFloatingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFloatingObject.h; sourceTree = "<group>"; };
+		CC930FCC12E7BF6800CBCFD1 /* ZFloatingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFloatingObject.m; sourceTree = "<group>"; };
+		CC930FCD12E7BF6800CBCFD1 /* ZFloatingRepresentative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFloatingRepresentative.h; sourceTree = "<group>"; };
+		CC930FCE12E7BF6800CBCFD1 /* ZFloatingRepresentative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFloatingRepresentative.m; sourceTree = "<group>"; };
+		CC930FCF12E7BF6800CBCFD1 /* ZPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPopoverController.h; sourceTree = "<group>"; };
+		CC930FD012E7BF6800CBCFD1 /* ZPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPopoverController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* PopoverSampleAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PopoverSampleAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* PopoverSampleViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* PopoverSampleViewController.m */,
+				2899E5210DE3E06400AC0155 /* PopoverSampleViewController.xib */,
+				CC930FAE12E7BD6100CBCFD1 /* SamplePopoverContentViewController.h */,
+				CC930FAF12E7BD6100CBCFD1 /* SamplePopoverContentViewController.m */,
+				CC930FB012E7BD6100CBCFD1 /* SamplePopover1.xib */,
+				CC930FBC12E7BEE000CBCFD1 /* SamplePopover2.xib */,
+				CC930FBB12E7BEE000CBCFD1 /* SamplePopover3.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ZPopoverSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				CC930FC212E7BF6800CBCFD1 /* Utilities */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ZPopoverSample_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC930FB412E7BDCC00CBCFD1 /* electricwoods.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* ZPopoverSample-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC930FC212E7BF6800CBCFD1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CC930FC312E7BF6800CBCFD1 /* ZAction.h */,
+				CC930FC412E7BF6800CBCFD1 /* ZAction.m */,
+				CC930FC512E7BF6800CBCFD1 /* ZActionSheet.h */,
+				CC930FC612E7BF6800CBCFD1 /* ZActionSheet.m */,
+				CC930FC712E7BF6800CBCFD1 /* ZAlertView.h */,
+				CC930FC812E7BF6800CBCFD1 /* ZAlertView.m */,
+				CC930FC912E7BF6800CBCFD1 /* ZFloatingManager.h */,
+				CC930FCA12E7BF6800CBCFD1 /* ZFloatingManager.m */,
+				CC930FCB12E7BF6800CBCFD1 /* ZFloatingObject.h */,
+				CC930FCC12E7BF6800CBCFD1 /* ZFloatingObject.m */,
+				CC930FCD12E7BF6800CBCFD1 /* ZFloatingRepresentative.h */,
+				CC930FCE12E7BF6800CBCFD1 /* ZFloatingRepresentative.m */,
+				CC930FCF12E7BF6800CBCFD1 /* ZPopoverController.h */,
+				CC930FD012E7BF6800CBCFD1 /* ZPopoverController.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ZPopoverSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ZPopoverSample" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPopoverSample;
+			productName = ZPopoverSample;
+			productReference = 1D6058910D05DD3D006BFB54 /* ZPopoverSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ZPopoverSample" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ZPopoverSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* PopoverSampleViewController.xib in Resources */,
+				CC930FB212E7BD6100CBCFD1 /* SamplePopover1.xib in Resources */,
+				CC930FB512E7BDCC00CBCFD1 /* electricwoods.png in Resources */,
+				CC930FBE12E7BEE000CBCFD1 /* SamplePopover3.xib in Resources */,
+				CC930FBF12E7BEE000CBCFD1 /* SamplePopover2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PopoverSampleAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* PopoverSampleViewController.m in Sources */,
+				CC930FB112E7BD6100CBCFD1 /* SamplePopoverContentViewController.m in Sources */,
+				CC930FD212E7BF6800CBCFD1 /* ZAction.m in Sources */,
+				CC930FD312E7BF6800CBCFD1 /* ZActionSheet.m in Sources */,
+				CC930FD412E7BF6800CBCFD1 /* ZAlertView.m in Sources */,
+				CC930FD512E7BF6800CBCFD1 /* ZFloatingManager.m in Sources */,
+				CC930FD612E7BF6800CBCFD1 /* ZFloatingObject.m in Sources */,
+				CC930FD712E7BF6800CBCFD1 /* ZFloatingRepresentative.m in Sources */,
+				CC930FD812E7BF6800CBCFD1 /* ZPopoverController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZPopoverSample_Prefix.pch;
+				INFOPLIST_FILE = "ZPopoverSample-Info.plist";
+				PRODUCT_NAME = ZPopoverSample;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZPopoverSample_Prefix.pch;
+				INFOPLIST_FILE = "ZPopoverSample-Info.plist";
+				PRODUCT_NAME = ZPopoverSample;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ZPopoverSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ZPopoverSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
