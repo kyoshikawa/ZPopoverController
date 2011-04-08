@@ -19,16 +19,16 @@
 }
 + (ZFloatingManager *)sharedManager;
 + (void)dismissAnimated:(BOOL)aAnimated;
-+ (BOOL)shouldFloatingWithIdentiferAppear:(NSString *)aIdentifer;
++ (BOOL)shouldFloatingWithIdentifierAppear:(NSString *)aIdentifier;
 
 @property (readonly) NSMutableArray *floatings;
 @property (readonly) id <ZFloatingObject> activeFloating;
-@property (readonly) NSString *activeIdentifer;
+@property (readonly) NSString *activeIdentifier;
 
 - (void)addFloating:(id <ZFloatingObject>)aController;
 - (void)removeFloating:(id <ZFloatingObject>)aController;
 - (void)dismissAnimated:(BOOL)aAnimated;
-- (BOOL)shouldFloatingWithIdentiferAppear:(NSString *)aIdentifer;
+- (BOOL)shouldFloatingWithIdentifierAppear:(NSString *)aIdentifier;
 
 @end
 

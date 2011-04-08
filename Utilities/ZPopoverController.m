@@ -14,7 +14,7 @@
 //
 @implementation ZPopoverController
 
-@synthesize identifer;
+@synthesize identifier;
 @synthesize context;
 
 #pragma mark -
@@ -36,7 +36,7 @@
 		[self dismissPopoverAnimated:NO];
 	}
 
-	self.identifer = nil;
+	self.identifier = nil;
 	self.context = nil;
 	originalDelegate = nil;
 	[super dealloc];
@@ -64,7 +64,7 @@
 - (BOOL)shouldAppear
 {
 	id <ZFloatingObject> controller = [ZFloatingManager sharedManager].activeFloating;
-	if ([controller.identifer isEqualToString:self.identifer]) {
+	if ([controller.identifier isEqualToString:self.identifier]) {
 		return NO;
 	}
 	return YES;

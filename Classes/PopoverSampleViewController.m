@@ -79,43 +79,43 @@
 
 - (IBAction)test1Action:(id)sender
 {
-	if ([ZFloatingManager shouldFloatingWithIdentiferAppear:@"test1"]) {
+	if ([ZFloatingManager shouldFloatingWithIdentifierAppear:@"test1"]) {
 		SamplePopoverContentViewController *contentViewController =
 				[[[SamplePopoverContentViewController alloc] initWithNibName:@"SamplePopover1" bundle:nil] autorelease];
 		ZPopoverController *popoverController = 
 				[[[ZPopoverController alloc] initWithContentViewController:contentViewController] autorelease];
-		popoverController.identifer = @"test1";
+		popoverController.identifier = @"test1";
 		[popoverController presentFromBarButtonItem:sender animated:YES];
 	}
 }
 
 - (IBAction)test2Action:(id)sender
 {
-	if ([ZFloatingManager shouldFloatingWithIdentiferAppear:@"test2"]) {
+	if ([ZFloatingManager shouldFloatingWithIdentifierAppear:@"test2"]) {
 		SamplePopoverContentViewController *contentViewController =
 				[[[SamplePopoverContentViewController alloc] initWithNibName:@"SamplePopover2" bundle:nil] autorelease];
 		ZPopoverController *popoverController = 
 				[[[ZPopoverController alloc] initWithContentViewController:contentViewController] autorelease];
-		popoverController.identifer = @"test2";
+		popoverController.identifier = @"test2";
 		[popoverController presentFromBarButtonItem:sender animated:YES];
 	}
 }
 
 - (IBAction)test3Action:(id)sender
 {
-	if ([ZFloatingManager shouldFloatingWithIdentiferAppear:@"test3"]) {
+	if ([ZFloatingManager shouldFloatingWithIdentifierAppear:@"test3"]) {
 		SamplePopoverContentViewController *contentViewController =
 				[[[SamplePopoverContentViewController alloc] initWithNibName:@"SamplePopover3" bundle:nil] autorelease];
 		ZPopoverController *popoverController = 
 				[[[ZPopoverController alloc] initWithContentViewController:contentViewController] autorelease];
-		popoverController.identifer = @"test3";
+		popoverController.identifier = @"test3";
 		[popoverController presentFromBarButtonItem:sender animated:YES];
 	}
 }
 
 - (IBAction)test4Action:(id)sender
 {
-	if ([ZFloatingManager shouldFloatingWithIdentiferAppear:@"test4"]) {
+	if ([ZFloatingManager shouldFloatingWithIdentifierAppear:@"test4"]) {
 
 		ZAction *cancel = [ZAction actionWithTitle:@"Cancel" target:self action:nil object:nil];
 		ZAction *destroy = [ZAction actionWithTitle:@"Clear" target:self action:@selector(colorAction:) object:[UIColor clearColor]];
@@ -126,14 +126,14 @@
 
 		ZActionSheet *sheet = [[[ZActionSheet alloc] initWithTitle:@"Title" cancelAction:cancel destructiveAction:destroy
 					otherActions:[NSArray arrayWithObjects:option1, option2, option3, option4, nil]] autorelease];
-		sheet.identifer = @"test4";
+		sheet.identifier = @"test4";
 		[sheet showFromBarButtonItem:sender animated:YES];
 	}
 }
 
 - (IBAction)test5Action:(id)sender
 {
-	if ([ZFloatingManager shouldFloatingWithIdentiferAppear:@"test5"]) {
+	if ([ZFloatingManager shouldFloatingWithIdentifierAppear:@"test5"]) {
 
 		ZAction *destroy = [ZAction actionWithTitle:@"Clear" target:self action:@selector(colorAction:) object:[UIColor clearColor]];
 		ZAction *option1 = [ZAction actionWithTitle:@"Blue" target:self action:@selector(colorAction:) object:[UIColor blueColor]];
@@ -143,7 +143,7 @@
 
 		ZActionSheet *sheet = [[[ZActionSheet alloc] initWithTitle:@"Title" cancelAction:nil destructiveAction:destroy
 					otherActions:[NSArray arrayWithObjects:option1, option2, option3, option4, nil]] autorelease];
-		sheet.identifer = @"test5";
+		sheet.identifier = @"test5";
 		[sheet showFromBarButtonItem:sender animated:YES];
 	}
 }

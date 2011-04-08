@@ -17,13 +17,13 @@
 //
 @implementation ZFloatingRepresentative
 
-@synthesize identifer;
+@synthesize identifier;
 @synthesize floating;
 
-+ (id)representativeWithIdentifer:(NSString *)aIdentifer
++ (id)representativeWithIdentifier:(NSString *)aIdentifier
 {
-	if ([[ZFloatingManager sharedManager] shouldFloatingWithIdentiferAppear:aIdentifer]) {
-		return [[[ZFloatingRepresentative alloc] initWithIdentifer:aIdentifer] autorelease];
+	if ([[ZFloatingManager sharedManager] shouldFloatingWithIdentifierAppear:aIdentifier]) {
+		return [[[ZFloatingRepresentative alloc] initWithIdentifier:aIdentifier] autorelease];
 	}
 	return nil;
 }
@@ -31,12 +31,12 @@
 
 #pragma mark -
 
-- (id)initWithIdentifer:(NSString *)aIdentifer
+- (id)initWithIdentifier:(NSString *)aIdentifier
 {
-	NSParameterAssert(aIdentifer);
+	NSParameterAssert(aIdentifier);
 
 	if (self = [super init]) {
-		self.identifer = aIdentifer;
+		self.identifier = aIdentifier;
 		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(floatingControllerWillAppear:)
 					name:kZFloatingObjectWillAppear object:nil];
 		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(floatingControllerWillDisappear:)
@@ -53,7 +53,7 @@
 	}
 
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
-	self.identifer = nil;
+	self.identifier = nil;
 	[super dealloc];
 }
 
@@ -66,7 +66,7 @@
 
 - (BOOL)shouldAppear
 {
-	return [[ZFloatingManager sharedManager] shouldFloatingWithIdentiferAppear:self.identifer];
+	return [[ZFloatingManager sharedManager] shouldFloatingWithIdentifierAppear:self.identifier];
 }
 
 - (void)dismissAnimated:(BOOL)aAnimated
@@ -98,7 +98,7 @@
 
 		NSParameterAssert(floating == nil);
 		floating = [aFloatingController retain];
-		floating.identifer = self.identifer;
+		floating.identifier = self.identifier;
 	}
 }
 

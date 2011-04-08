@@ -15,7 +15,7 @@
 //
 @implementation ZActionSheet
 
-@synthesize identifer;
+@synthesize identifier;
 @synthesize context;
 @synthesize cancelAction;
 @synthesize destructiveAction;
@@ -79,7 +79,7 @@
 		[self dismissAnimated:NO];
 	}
 
-	self.identifer = nil;
+	self.identifier = nil;
 	self.context = nil;
 	originalDelegate = nil;
 	[super dealloc];
@@ -108,7 +108,7 @@
 {
 	id <ZFloatingObject> controller = [ZFloatingManager sharedManager].activeFloating;
 //	if (controller == nil || controller != self) {
-	if (![controller.identifer isEqualToString:self.identifer]) {
+	if (![controller.identifier isEqualToString:self.identifier]) {
 		return YES;
 	}
 	return NO;

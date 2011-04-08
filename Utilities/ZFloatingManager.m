@@ -31,9 +31,9 @@ static ZFloatingManager *gFloatingManager = nil;
 	[[self sharedManager] dismissAnimated:aAnimated];
 }
 
-+ (BOOL)shouldFloatingWithIdentiferAppear:(NSString *)aIdentifer
++ (BOOL)shouldFloatingWithIdentifierAppear:(NSString *)aIdentifier
 {
-	return [[self sharedManager] shouldFloatingWithIdentiferAppear:aIdentifer];
+	return [[self sharedManager] shouldFloatingWithIdentifierAppear:aIdentifier];
 }
 
 #pragma mark -
@@ -80,9 +80,9 @@ static ZFloatingManager *gFloatingManager = nil;
 
 #pragma mark -
 
-- (NSString *)activeIdentifer
+- (NSString *)activeIdentifier
 {
-	return self.activeFloating.identifer;
+	return self.activeFloating.identifier;
 }
 
 - (void)dismissAnimated:(BOOL)aAnimated
@@ -90,10 +90,10 @@ static ZFloatingManager *gFloatingManager = nil;
 	[self.activeFloating dismissAnimated:aAnimated];
 }
 
-- (BOOL)shouldFloatingWithIdentiferAppear:(NSString *)aIdentifer
+- (BOOL)shouldFloatingWithIdentifierAppear:(NSString *)aIdentifier
 {
 	id <ZFloatingObject> controller = self.activeFloating;
-	if ([controller.identifer isEqualToString:aIdentifer]) {
+	if ([controller.identifier isEqualToString:aIdentifier]) {
 		[controller dismissAnimated:YES];
 		return NO;
 	}

@@ -15,7 +15,7 @@
 //
 @interface ZActionSheet : UIActionSheet <ZFloatingObject, UIActionSheetDelegate>
 {
-	id identifer;
+	id identifier;
 	id context;
 	id <UIActionSheetDelegate> originalDelegate;
 	ZAction *cancelAction;

@@ -34,7 +34,7 @@ extern NSString *kZFloatingObjectWillDisappear;
 //	ZFloatingObject (protocol)
 //
 @protocol ZFloatingObject <NSObject>
-@property (retain) id identifer;
+@property (retain) id identifier;
 @property (retain) id context;
 @property (readonly, getter=isActive) BOOL active;
 

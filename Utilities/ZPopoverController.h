@@ -25,7 +25,7 @@
 //
 @interface ZPopoverController : UIPopoverController <ZFloatingObject, UIPopoverControllerDelegate>
 {
-	id identifer;
+	id identifier;
 	id context;
 	id <UIPopoverControllerDelegate> originalDelegate;
 }

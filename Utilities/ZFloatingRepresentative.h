@@ -14,15 +14,15 @@
 //
 @interface ZFloatingRepresentative : NSObject
 {
-	NSString *identifer;
+	NSString *identifier;
 	id <ZFloatingObject> floating;
 }
-@property (retain) NSString *identifer;
+@property (retain) NSString *identifier;
 @property (retain) id <ZFloatingObject> floating;
 @property (readonly, getter=isActive) BOOL active;
 
-+ (id)representativeWithIdentifer:(NSString *)aIdentifer;
-- (id)initWithIdentifer:(NSString *)aIdentifer;
++ (id)representativeWithIdentifier:(NSString *)aIdentifier;
+- (id)initWithIdentifier:(NSString *)aIdentifier;
 - (void)dismissAnimated:(BOOL)aAnimated;
 
 @end
