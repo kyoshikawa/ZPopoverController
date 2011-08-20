@@ -39,7 +39,9 @@
 
 - (void)performAction
 {
-	[self.target performSelector:action withObject:object];
+	if (action) {
+		[self.target performSelector:action withObject:object];
+	}
 }
 
 @end
