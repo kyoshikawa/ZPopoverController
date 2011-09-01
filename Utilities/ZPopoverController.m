@@ -57,6 +57,7 @@
 
 - (void)floatingObjectWillDisappear
 {
+	[[self retain] autorelease];	// this needs for iOS 5
 	[[NSNotificationCenter defaultCenter] postNotificationName:kZFloatingObjectWillDisappear object:self userInfo:nil];
 	[[ZFloatingManager sharedManager] removeFloating:self];
 }
