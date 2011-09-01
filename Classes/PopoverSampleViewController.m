@@ -53,6 +53,12 @@
     return YES;
 }
 
+- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+{
+	[ZFloatingManager dismissAnimated:YES];
+	[super willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

@@ -258,8 +258,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ZPopoverSample_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "ZPopoverSample-Info.plist";
 				PRODUCT_NAME = ZPopoverSample;
+				SDKROOT = iphoneos4.2;
 			};
 			name = Debug;
 		};
@@ -270,8 +272,10 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ZPopoverSample_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "ZPopoverSample-Info.plist";
 				PRODUCT_NAME = ZPopoverSample;
+				SDKROOT = iphoneos4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

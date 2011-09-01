@@ -80,13 +80,10 @@
 
 #pragma mark -
 
-- (void)presentPopoverFromBarButtonItem:(UIBarButtonItem *)aItem permittedArrowDirections:(UIPopoverArrowDirection)aArrowDirections animated:(BOOL)aAnimated
-{
-	if ([self shouldAppear]) {
-		[self floatingObjectWillAppear];
-		[super presentPopoverFromBarButtonItem:aItem permittedArrowDirections:aArrowDirections animated:aAnimated];
-	}
-}
+//- (void)presentPopoverFromBarButtonItem:(UIBarButtonItem *)aItem permittedArrowDirections:(UIPopoverArrowDirection)aArrowDirections animated:(BOOL)aAnimated
+//{
+//	[super presentPopoverFromBarButtonItem:aItem permittedArrowDirections:aArrowDirections animated:aAnimated];
+//}
 
 - (void)presentPopoverFromRect:(CGRect)rect inView:(UIView *)view permittedArrowDirections:(UIPopoverArrowDirection)arrowDirections animated:(BOOL)animated
 {

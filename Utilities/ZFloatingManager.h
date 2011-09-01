@@ -15,13 +15,13 @@
 //
 @interface ZFloatingManager : NSObject
 {
-	NSMutableArray *floatings;
+	NSMutableSet *floatings;
 }
 + (ZFloatingManager *)sharedManager;
 + (void)dismissAnimated:(BOOL)aAnimated;
 + (BOOL)shouldFloatingWithIdentifierAppear:(NSString *)aIdentifier;
 
-@property (readonly) NSMutableArray *floatings;
+@property (readonly) NSMutableSet *floatings;
 @property (readonly) id <ZFloatingObject> activeFloating;
 @property (readonly) NSString *activeIdentifier;
 

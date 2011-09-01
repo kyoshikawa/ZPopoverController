@@ -46,10 +46,10 @@ static ZFloatingManager *gFloatingManager = nil;
 
 #pragma mark -
 
-- (NSMutableArray *)floatings
+- (NSMutableSet *)floatings
 {
 	if (!floatings) {
-		floatings = [[NSMutableArray alloc] init];
+		floatings = [[NSMutableSet alloc] init];
 	}
 	return floatings;
 }
